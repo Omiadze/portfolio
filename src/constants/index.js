@@ -121,6 +121,7 @@ const experiences = [
       "Jotai",
       "Supabase",
       "JWT authentication",
+      "agile",
     ],
   },
   {
@@ -162,7 +163,8 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Colaborative Project - Stayconnected",
+    name: "Collaborative Project - Stayconnected",
+    link: "https://staycon.otter.ge/",
     description:
       "StayConnected is a platform designed to foster knowledge sharing among developers. It enables developers to ask questions, provide answers, and exchange valuable experiences, creating a collaborative environment for learning and growth.",
     tags: [
@@ -185,6 +187,7 @@ const projects = [
   },
   {
     name: "Unspoken Words",
+    link: "https://anonymous-messages-project.vercel.app/en",
     description:
       "Unspoken Words is a platform for sharing messages—either anonymously or with attribution. Users can express their thoughts by posting messages for specific recipients while exploring messages shared by others. The application provides advanced features like search, filtering, pagination, and a highly personalized user experience. ",
     tags: [
@@ -206,6 +209,7 @@ const projects = [
   },
   {
     name: "Admin Panel",
+    link: "https://admin-panel-site-7.netlify.app/en/users",
     description:
       "This project is a fully responsive Admin Panel that implements basic CRUD functionalities and data visualization. The application includes user authentication, management, search functionality, pagination, theme switching, language translation, and a clean UI built with React, TypeScript, Tailwind CSS, and Shadcn UI.",
     tags: [
@@ -227,6 +231,7 @@ const projects = [
   },
   {
     name: "TBC concept",
+    link: "https://tbc-concept.netlify.app/",
     description:
       "TBC Concept is a website developed using HTML, CSS, and JavaScript. This project aims to provide users with an interactive and visually appealing experience.",
     tags: [

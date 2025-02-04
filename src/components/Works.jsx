@@ -11,6 +11,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ProjectCard = ({
   index,
   name,
+  link,
   description,
   tags,
   image,
@@ -49,6 +50,9 @@ const ProjectCard = ({
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            Live Link: <span className="text-customOrange">{link}</span>
+          </a>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
