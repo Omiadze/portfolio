@@ -35,6 +35,8 @@ import staycon from "./staycon.png";
 import unspoken from "./unspoken.png";
 import concept from "./concept.png";
 import adminka from "./adminka.png";
+import techXplore from "./company/techXplore.webp";
+import momentum from "./momentum.png";
 
 export {
   logoTeo,
@@ -71,4 +73,6 @@ export {
   unspoken,
   concept,
   adminka,
+  techXplore,
+  momentum,
 };

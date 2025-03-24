@@ -29,6 +29,8 @@ import {
   unspoken,
   adminka,
   concept,
+  techXplore,
+  momentum,
 } from "../assets";
 
 export const navLinks = [
@@ -106,6 +108,16 @@ const technologies = [
 
 const experiences = [
   {
+    title: "TechXplore Hackathon",
+    company_name: "TBC TechXplore",
+    icon: techXplore,
+    iconBg: "#E6DEDD",
+    date: "20 Feb 2025 - 23 Feb 2025",
+    points: [
+      "I was the front-end developer on the team that successfully delivered the MVP in just 3 days.",
+    ],
+  },
+  {
     title: "React Accelerator: Fast-Track Your Web Development Career",
     company_name: "TBC IT Academy",
     icon: tbc,
@@ -162,6 +174,29 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Momentum-Progress Tracking Software",
+    link: "https://momentum-redberry.netlify.app/home",
+    description:
+      "Momentum is a web-based application designed for companies, to manage employees and the tasks assigned to them. The app allows for detailed task management and tracking, including the ability to filter tasks by department, employee, and priority. It also supports real-time collaboration through task comments and user-friendly features for task creation and management.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shadcn/ui",
+        color: "text-customOrange",
+      },
+    ],
+    image: momentum,
+    source_code_link:
+      "https://github.com/Omiadze/Momentum---Progress-Tracking-Software",
+  },
   {
     name: "Collaborative Project - Stayconnected",
     link: "https://staycon.otter.ge/",
